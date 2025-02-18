@@ -8,14 +8,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^9.15.0",
+    "miragejs": "0.1.46",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "6.4.3",
-    "miragejs": "0.1.46",
     "react-icons": "4.7.1",
-    "vite": "latest"
+    "react-router-dom": "6.4.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "*"
+    "@vitejs/plugin-react": "*",
+    "vite": "^6.1.0"
   }
 }
