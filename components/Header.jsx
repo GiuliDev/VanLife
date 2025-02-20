@@ -15,7 +15,9 @@ export default function Header() {
 
     return (
         <header>
-            <Link className="site-logo" to="/">#VanLife</Link>
+            <Link className="site-logo" to="/">
+                <img src="logo.png" className="logo" alt="VanLife Logo" />
+            </Link>
             <nav>
                 <NavLink
                     to="/host"
@@ -41,7 +43,7 @@ export default function Header() {
                         className="login-icon"
                     />
                 </Link>
-                <button onClick={fakeLogOut}>X</button>
+                <button className="logout" onClick={fakeLogOut}>Logout</button>
             </nav>
         </header>
     )
