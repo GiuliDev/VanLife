@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom"
 import imageUrl from "/assets/images/avatar-icon.png"
+import logo from "../logo.png"
 
 export default function Header() {
     const activeStyles = {
@@ -16,7 +17,7 @@ export default function Header() {
     return (
         <header>
             <Link className="site-logo" to="/">
-                <img src="/logo.png" className="logo" alt="VanLife Logo" />
+                <img src={logo} className="logo" alt="VanLife Logo" />
             </Link>
             <nav>
                 <NavLink
